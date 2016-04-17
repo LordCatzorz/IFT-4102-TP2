@@ -46,6 +46,7 @@
     <Compile Include="BayenNaifClassificator.cs" />
     <Compile Include="DataBuyComputer.cs" />
     <Compile Include="DataPlayTennis.cs" />
+    <Compile Include="PDM.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TreeLearner.cs" />

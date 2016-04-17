@@ -10,6 +10,9 @@ namespace IFT_4102_TP2
     {
         static void Main(string[] args)
         {
+            PDM pdm = new PDM();
+            Console.WriteLine(pdm.SolveQ2());
+
             Solver bnc = new Solver();
             Tuple<bool,double> answer = (bnc.SolveQ3(DataPlayTennis.Ciel.NUAGEUX, DataPlayTennis.Temperature.FROIDE, DataPlayTennis.Humidite.NORMAL, DataPlayTennis.Vent.FAIBLE));
 
