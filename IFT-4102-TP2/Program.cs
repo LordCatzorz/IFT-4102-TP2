@@ -18,6 +18,10 @@ namespace IFT_4102_TP2
             answer = (bnc.SolveQ4(DataPlayTennis.Ciel.NUAGEUX, DataPlayTennis.Temperature.FROIDE, DataPlayTennis.Humidite.NORMAL, DataPlayTennis.Vent.FAIBLE));
 
             Console.WriteLine(String.Format("The answer to Q4 is {0} with a approximate probability of {1}", answer.Item1, answer.Item2));
+
+
+            TreeLearner tl = new TreeLearner();
+            tl.SolveQ5();
             Console.ReadLine();
         }
     }
